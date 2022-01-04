@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="ZeroBank.ZeroBankTest">
+        <methods>
+          <include name="Purchase_Foreign_Currency_Cash_Alert_Test"/>
+          <include name="LoginTest_IncorrectUsername_CorrectPassword"/>
+          <include name="Logout"/>
+          <include name="LoginTest_CorrectUsername_CorrectPassword"/>
+          <include name="Fund_Transfer_Test"/>
+          <include name="Invalid_Data_In_Search"/>
+          <include name="Purchase_Foreign_Currency_Cash_Invalid_Amount_Test"/>
+          <include name="CleanUp"/>
+          <include name="On_Cancel_Go_Back"/>
+          <include name="SetUp"/>
+          <include name="Fund_Transfer_Test_NotContinue_for_InvalidValue"/>
+        </methods>
+      </class> <!-- ZeroBank.ZeroBankTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
