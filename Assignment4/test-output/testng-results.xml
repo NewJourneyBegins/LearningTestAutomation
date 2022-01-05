@@ -1,136 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="7" total="9" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-05T01:33:37 IST" name="TestNGSuite" finished-at="2022-01-05T01:34:13 IST" duration-ms="35924">
+  <suite started-at="2022-01-05T11:03:42 IST" name="TestNGSuite" finished-at="2022-01-05T11:03:54 IST" duration-ms="12702">
     <groups>
-      <group name="Regression">
-        <method signature="ZeroBankLoginTest.LoginTest_CorrectUsername_InorrectPassword()[pri:0, instance:ZeroBank.ZeroBankLoginTest@212b5695]" name="LoginTest_CorrectUsername_InorrectPassword" class="ZeroBank.ZeroBankLoginTest"/>
-        <method signature="ZeroBankLoginTest.LoginTest_EmptyUsername_EmptyPassword()[pri:0, instance:ZeroBank.ZeroBankLoginTest@212b5695]" name="LoginTest_EmptyUsername_EmptyPassword" class="ZeroBank.ZeroBankLoginTest"/>
-        <method signature="ZeroBankLoginTest.LoginTest_InorrectUsername_CorrectPassword()[pri:0, instance:ZeroBank.ZeroBankLoginTest@212b5695]" name="LoginTest_InorrectUsername_CorrectPassword" class="ZeroBank.ZeroBankLoginTest"/>
-        <method signature="ZeroBankTest.Fund_Transfer_Test_NotContinue_for_InvalidValue()[pri:4, instance:ZeroBank.ZeroBankTest@223aa2f7]" name="Fund_Transfer_Test_NotContinue_for_InvalidValue" class="ZeroBank.ZeroBankTest"/>
-        <method signature="ZeroBankTest.Invalid_Data_In_Search()[pri:5, instance:ZeroBank.ZeroBankTest@223aa2f7]" name="Invalid_Data_In_Search" class="ZeroBank.ZeroBankTest"/>
-        <method signature="ZeroBankTest.On_Cancel_Go_Back()[pri:6, instance:ZeroBank.ZeroBankTest@223aa2f7]" name="On_Cancel_Go_Back" class="ZeroBank.ZeroBankTest"/>
-        <method signature="ZeroBankTest.Purchase_Foreign_Currency_Cash_Invalid_Amount_Test()[pri:3, instance:ZeroBank.ZeroBankTest@223aa2f7]" name="Purchase_Foreign_Currency_Cash_Invalid_Amount_Test" class="ZeroBank.ZeroBankTest"/>
-      </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="ZeroBankTest.Fund_Transfer_Test()[pri:2, instance:ZeroBank.ZeroBankTest@223aa2f7]" name="Fund_Transfer_Test" class="ZeroBank.ZeroBankTest"/>
-        <method signature="ZeroBankTest.Purchase_Foreign_Currency_Cash_Alert_Test()[pri:1, instance:ZeroBank.ZeroBankTest@223aa2f7]" name="Purchase_Foreign_Currency_Cash_Alert_Test" class="ZeroBank.ZeroBankTest"/>
+        <method signature="ZeroBankTest.Fund_Transfer_Test()[pri:2, instance:ZeroBank.ZeroBankTest@6babf3bf]" name="Fund_Transfer_Test" class="ZeroBank.ZeroBankTest"/>
+        <method signature="ZeroBankTest.Purchase_Foreign_Currency_Cash_Alert_Test()[pri:1, instance:ZeroBank.ZeroBankTest@6babf3bf]" name="Purchase_Foreign_Currency_Cash_Alert_Test" class="ZeroBank.ZeroBankTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-01-05T01:33:37 IST" name="ZeroBank" finished-at="2022-01-05T01:34:13 IST" duration-ms="35924">
+    <test started-at="2022-01-05T11:03:42 IST" name="ZeroBank" finished-at="2022-01-05T11:03:54 IST" duration-ms="12702">
       <class name="ZeroBank.ZeroBankTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:33:34 IST" name="SetUp" finished-at="2022-01-05T01:33:37 IST" duration-ms="3695" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ZeroBank.ZeroBankTest@6babf3bf]" started-at="2022-01-05T11:03:38 IST" name="SetUp" finished-at="2022-01-05T11:03:42 IST" duration-ms="3914" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="LoginTest_CorrectUsername_CorrectPassword()[pri:0, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:33:37 IST" name="LoginTest_CorrectUsername_CorrectPassword" finished-at="2022-01-05T01:33:42 IST" duration-ms="5084" status="PASS">
+        <test-method is-config="true" signature="LoginTest_CorrectUsername_CorrectPassword()[pri:0, instance:ZeroBank.ZeroBankTest@6babf3bf]" started-at="2022-01-05T11:03:42 IST" name="LoginTest_CorrectUsername_CorrectPassword" finished-at="2022-01-05T11:03:46 IST" duration-ms="4351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest_CorrectUsername_CorrectPassword -->
-        <test-method signature="Purchase_Foreign_Currency_Cash_Alert_Test()[pri:1, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:33:42 IST" name="Purchase_Foreign_Currency_Cash_Alert_Test" finished-at="2022-01-05T01:33:45 IST" duration-ms="2619" status="PASS">
+        <test-method signature="Purchase_Foreign_Currency_Cash_Alert_Test()[pri:1, instance:ZeroBank.ZeroBankTest@6babf3bf]" started-at="2022-01-05T11:03:46 IST" name="Purchase_Foreign_Currency_Cash_Alert_Test" finished-at="2022-01-05T11:03:48 IST" duration-ms="2368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Purchase_Foreign_Currency_Cash_Alert_Test -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:33:45 IST" name="Logout" finished-at="2022-01-05T01:33:46 IST" duration-ms="782" status="PASS">
+        <test-method is-config="true" signature="Logout()[pri:0, instance:ZeroBank.ZeroBankTest@6babf3bf]" started-at="2022-01-05T11:03:48 IST" name="Logout" finished-at="2022-01-05T11:03:49 IST" duration-ms="894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="LoginTest_CorrectUsername_CorrectPassword()[pri:0, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:33:46 IST" name="LoginTest_CorrectUsername_CorrectPassword" finished-at="2022-01-05T01:33:49 IST" duration-ms="2828" status="PASS">
+        <test-method is-config="true" signature="LoginTest_CorrectUsername_CorrectPassword()[pri:0, instance:ZeroBank.ZeroBankTest@6babf3bf]" started-at="2022-01-05T11:03:49 IST" name="LoginTest_CorrectUsername_CorrectPassword" finished-at="2022-01-05T11:03:51 IST" duration-ms="2001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest_CorrectUsername_CorrectPassword -->
-        <test-method signature="Fund_Transfer_Test()[pri:2, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:33:49 IST" name="Fund_Transfer_Test" finished-at="2022-01-05T01:33:51 IST" duration-ms="2135" status="PASS">
+        <test-method signature="Fund_Transfer_Test()[pri:2, instance:ZeroBank.ZeroBankTest@6babf3bf]" started-at="2022-01-05T11:03:51 IST" name="Fund_Transfer_Test" finished-at="2022-01-05T11:03:54 IST" duration-ms="2294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fund_Transfer_Test -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:33:51 IST" name="Logout" finished-at="2022-01-05T01:33:52 IST" duration-ms="688" status="PASS">
+        <test-method is-config="true" signature="Logout()[pri:0, instance:ZeroBank.ZeroBankTest@6babf3bf]" started-at="2022-01-05T11:03:54 IST" name="Logout" finished-at="2022-01-05T11:03:54 IST" duration-ms="719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="LoginTest_CorrectUsername_CorrectPassword()[pri:0, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:33:52 IST" name="LoginTest_CorrectUsername_CorrectPassword" finished-at="2022-01-05T01:33:53 IST" duration-ms="1949" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest_CorrectUsername_CorrectPassword -->
-        <test-method signature="Purchase_Foreign_Currency_Cash_Invalid_Amount_Test()[pri:3, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:33:53 IST" name="Purchase_Foreign_Currency_Cash_Invalid_Amount_Test" finished-at="2022-01-05T01:33:55 IST" duration-ms="1712" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Purchase_Foreign_Currency_Cash_Invalid_Amount_Test -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:33:55 IST" name="Logout" finished-at="2022-01-05T01:33:56 IST" duration-ms="732" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="LoginTest_CorrectUsername_CorrectPassword()[pri:0, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:33:56 IST" name="LoginTest_CorrectUsername_CorrectPassword" finished-at="2022-01-05T01:33:58 IST" duration-ms="1943" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest_CorrectUsername_CorrectPassword -->
-        <test-method signature="Fund_Transfer_Test_NotContinue_for_InvalidValue()[pri:4, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:33:58 IST" name="Fund_Transfer_Test_NotContinue_for_InvalidValue" finished-at="2022-01-05T01:34:00 IST" duration-ms="1674" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Fund_Transfer_Test_NotContinue_for_InvalidValue -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:34:00 IST" name="Logout" finished-at="2022-01-05T01:34:00 IST" duration-ms="752" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="LoginTest_CorrectUsername_CorrectPassword()[pri:0, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:34:00 IST" name="LoginTest_CorrectUsername_CorrectPassword" finished-at="2022-01-05T01:34:02 IST" duration-ms="1944" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest_CorrectUsername_CorrectPassword -->
-        <test-method signature="Invalid_Data_In_Search()[pri:5, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:34:02 IST" name="Invalid_Data_In_Search" finished-at="2022-01-05T01:34:03 IST" duration-ms="477" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Invalid_Data_In_Search -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:34:03 IST" name="Logout" finished-at="2022-01-05T01:34:03 IST" duration-ms="677" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="LoginTest_CorrectUsername_CorrectPassword()[pri:0, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:34:03 IST" name="LoginTest_CorrectUsername_CorrectPassword" finished-at="2022-01-05T01:34:05 IST" duration-ms="1879" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest_CorrectUsername_CorrectPassword -->
-        <test-method signature="On_Cancel_Go_Back()[pri:6, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:34:05 IST" name="On_Cancel_Go_Back" finished-at="2022-01-05T01:34:07 IST" duration-ms="1969" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- On_Cancel_Go_Back -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:34:07 IST" name="Logout" finished-at="2022-01-05T01:34:08 IST" duration-ms="728" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="CleanUp()[pri:0, instance:ZeroBank.ZeroBankTest@223aa2f7]" started-at="2022-01-05T01:34:14 IST" name="CleanUp" finished-at="2022-01-05T01:34:15 IST" duration-ms="1440" status="PASS">
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:ZeroBank.ZeroBankTest@6babf3bf]" started-at="2022-01-05T11:03:55 IST" name="CleanUp" finished-at="2022-01-05T11:03:55 IST" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CleanUp -->
       </class> <!-- ZeroBank.ZeroBankTest -->
       <class name="ZeroBank.ZeroBankLoginTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:ZeroBank.ZeroBankLoginTest@212b5695]" started-at="2022-01-05T01:33:29 IST" name="SetUp" finished-at="2022-01-05T01:33:34 IST" duration-ms="4838" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ZeroBank.ZeroBankLoginTest@7a419da4]" started-at="2022-01-05T11:03:33 IST" name="SetUp" finished-at="2022-01-05T11:03:38 IST" duration-ms="4867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="LoginTest_CorrectUsername_InorrectPassword()[pri:0, instance:ZeroBank.ZeroBankLoginTest@212b5695]" started-at="2022-01-05T01:34:08 IST" name="LoginTest_CorrectUsername_InorrectPassword" finished-at="2022-01-05T01:34:10 IST" duration-ms="1624" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest_CorrectUsername_InorrectPassword -->
-        <test-method is-config="true" signature="goBackToHomePage()[pri:0, instance:ZeroBank.ZeroBankLoginTest@212b5695]" started-at="2022-01-05T01:34:10 IST" name="goBackToHomePage" finished-at="2022-01-05T01:34:10 IST" duration-ms="414" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goBackToHomePage -->
-        <test-method signature="LoginTest_EmptyUsername_EmptyPassword()[pri:0, instance:ZeroBank.ZeroBankLoginTest@212b5695]" started-at="2022-01-05T01:34:10 IST" name="LoginTest_EmptyUsername_EmptyPassword" finished-at="2022-01-05T01:34:11 IST" duration-ms="1095" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest_EmptyUsername_EmptyPassword -->
-        <test-method is-config="true" signature="goBackToHomePage()[pri:0, instance:ZeroBank.ZeroBankLoginTest@212b5695]" started-at="2022-01-05T01:34:11 IST" name="goBackToHomePage" finished-at="2022-01-05T01:34:12 IST" duration-ms="437" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goBackToHomePage -->
-        <test-method signature="LoginTest_InorrectUsername_CorrectPassword()[pri:0, instance:ZeroBank.ZeroBankLoginTest@212b5695]" started-at="2022-01-05T01:34:12 IST" name="LoginTest_InorrectUsername_CorrectPassword" finished-at="2022-01-05T01:34:13 IST" duration-ms="1271" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest_InorrectUsername_CorrectPassword -->
-        <test-method is-config="true" signature="goBackToHomePage()[pri:0, instance:ZeroBank.ZeroBankLoginTest@212b5695]" started-at="2022-01-05T01:34:13 IST" name="goBackToHomePage" finished-at="2022-01-05T01:34:13 IST" duration-ms="391" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goBackToHomePage -->
-        <test-method is-config="true" signature="CleanUp()[pri:0, instance:ZeroBank.ZeroBankLoginTest@212b5695]" started-at="2022-01-05T01:34:13 IST" name="CleanUp" finished-at="2022-01-05T01:34:14 IST" duration-ms="483" status="PASS">
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:ZeroBank.ZeroBankLoginTest@7a419da4]" started-at="2022-01-05T11:03:54 IST" name="CleanUp" finished-at="2022-01-05T11:03:55 IST" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CleanUp -->
