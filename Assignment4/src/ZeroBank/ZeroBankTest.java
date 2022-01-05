@@ -245,7 +245,7 @@ public class ZeroBankTest {
 		assertEquals(driver.findElement(By.xpath("//h2[contains(text(),'Transfer Money & Make Payments')]")).getText(), "Transfer Money & Make Payments","Assertion Failed");
 
 	}
-	
+	//just to show all attributes are used
 	@BeforeClass
 	  public void beforeClass() {
 			System.out.println("This is @BeforeClass");
