@@ -245,6 +245,31 @@ public class ZeroBankTest {
 		assertEquals(driver.findElement(By.xpath("//h2[contains(text(),'Transfer Money & Make Payments')]")).getText(), "Transfer Money & Make Payments","Assertion Failed");
 
 	}
+	
+	@BeforeClass
+	  public void beforeClass() {
+			System.out.println("This is @BeforeClass");
+
+	  }
+	  
+
+	  @AfterClass
+	  public void afterClass() {
+			System.out.println("This is @AfterClass");
+			
+	  }
+	  
+	  @BeforeTest
+	  public void beforeTest() {
+			System.out.println("This is @BeforeTest");
+
+	  }
+
+	  @AfterTest
+	  public void afterTest() {
+			System.out.println("This is @AfterTest");
+
+	  }
 
 
 	@AfterMethod(alwaysRun=true)
