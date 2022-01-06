@@ -246,7 +246,7 @@ public class ZeroBankTest {
 
 	}
 	
-	//Just mentioning to show use of all Testng attributes
+	//Just mentioning to show use of all Testng annotations
 	
 	
 	@BeforeClass
